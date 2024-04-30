@@ -1,0 +1,59 @@
+﻿@model Kisi
+
+@{
+    ViewBag.Title = "Profil";
+    Layout = "~/Views/Shared/_AppLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/applayout.css">
+    <title>Profil</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Profil Bilgileri</h1>
+        </header>
+        <section class="profile-info">
+            <div class="profile-image text-center">
+                <img src="@Model.ProfilFotografiYolu" alt="Profil Resmi" class="img-fluid rounded-circle">
+                <button id="editImageBtn" class="btn btn-secondary mt-2">Resmi Düzenle</button>
+            </div>
+            <div class="info-item text-center">
+                <label for="fullName">Ad Soyad:</label>
+                <p id="fullName">@Model.FullAdi</p>
+                <button class="editBtn btn btn-link">Düzenle</button>
+            </div>
+            <div class="info-item text-center">
+                <label for="username">Kullanıcı Adı:</label>
+                <p id="username">@Model.KullaniciAdi</p>
+                <button class="editBtn btn btn-link">Düzenle</button>
+            </div>
+            <div class="info-item text-center">
+                <label for="birthdate">Doğum Tarihi:</label>
+                <p id="birthdate">@Model.DogumTarihi</p>
+                <button class="editBtn btn btn-link">Düzenle</button>
+            </div>
+            <div class="info-item text-center">
+                <label for="gender">Cinsiyet:</label>
+                <p id="gender">@Model.Cinsiyet</p>
+                <button class="editBtn btn btn-link">Düzenle</button>
+            </div>
+            <div class="info-item text-center">
+                <label for="phoneNumber">Telefon Numarası:</label>
+                <p id="phoneNumber">@Model.TelNumarasi</p>
+                <button class="editBtn btn btn-link">Düzenle</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

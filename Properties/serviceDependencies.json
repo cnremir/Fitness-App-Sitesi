@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets",
+      "connectionId": null
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "conStringss",
+      "dynamicId": null
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "connString"
+    }
+  }
+}

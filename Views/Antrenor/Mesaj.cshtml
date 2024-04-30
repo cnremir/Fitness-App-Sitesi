@@ -1,0 +1,133 @@
+﻿@model List<Mesajlar>
+@{
+    ViewBag.Title = "Plan Oluştur";
+    Layout = "~/Views/Shared/_AntrenorLayout.cshtml";
+}
+
+<html>
+<head>
+    <style>
+      
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+          
+            .content h1 {
+                color: #333333;
+                font-size: 24px;
+            }
+
+            .content .message-box {
+                width: 80%;
+                height: 500px;
+                margin: 0 auto;
+                border: 1px solid #cccccc;
+                overflow-y: auto;
+            }
+
+            .content .message {
+                display: flex;
+                align-items: center;
+                margin: 10px;
+            }
+
+    
+                .content .message img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                .content .message .bubble {
+                    max-width: 70%;
+                    padding: 10px;
+                    border-radius: 10px;
+                    font-size: 16px;
+                }
+
+                .content .message.incoming .bubble {
+                    margin-left: 10px;
+                    background-color: white;
+                    color: #666666;
+                }
+
+        
+                .content .message.outgoing {
+                    flex-direction: row-reverse;
+                }
+
+                    .content .message.outgoing .bubble {
+                        margin-right: 10px;
+                        background-color: #333333;
+                        color: white;
+                    }
+
+            .content .message-form {
+                width: 80%;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+                .content .message-form input {
+                    flex: 1;
+                    padding: 10px;
+                    border: 1px solid #cccccc;
+                    box-sizing: border-box; 
+                }
+
+                .content .message-form button {
+                    background-color: #333333;
+                    color: white;
+                    padding: 10px 20px;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                    .content .message-form button:hover {
+                        background-color: #666666;
+                    }
+    </style>
+</head>
+<body>
+    <!-- İçeriği oluşturalım -->
+    <div class="content">
+        <h1>@Deneme3.Controllers.AntrenorController.mesajkisi2.Adi ile Mesajlaşma</h1>
+        <div class="message-box">
+            @foreach(var x in Model)
+            {
+                if (x.AliciID == Deneme3.Controllers.AntrenorController.mesajkisikullanici.KisiId)
+                {
+                    <div class="message incoming">
+                    <img src="@Deneme3.Controllers.AntrenorController.mesajkisi2.ProfilFotografiYolu" alt="Burcu Özdemir">
+                    <div class="bubble">@x.Mesaj</div>
+                    </div>
+                }
+                else if (x.AliciID == Deneme3.Controllers.AntrenorController.mesajkisi2.KisiId)
+                {
+                    <div class="message outgoing">
+                        <img src="@Deneme3.Controllers.AntrenorController.mesajkisikullanici.ProfilFotografiYolu" alt="Ahmet Yılmaz">
+                        <div class="bubble">@x.Mesaj</div>
+                    </div>
+                }
+                
+            }
+        </div>
+        <form class="message-form" method="post" action="@Url.Action("MesajGonder", "Antrenor")">
+            <input type="text" name="Mesaj" placeholder="Mesajınızı yazın...">
+            <button type="submit">Gönder</button>
+        </form>
+    </div>
+</body>
+</html>

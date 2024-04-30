@@ -1,0 +1,115 @@
+﻿@model Antrenor
+
+@{
+    ViewBag.Title = "Profil";
+    Layout = "~/Views/Shared/_DanisanLayout.cshtml";
+}
+
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+            .content h1 {
+                color: #333333;
+                font-size: 24px;
+            }
+
+            .content p {
+                color: #666666;
+                font-size: 16px;
+            }
+
+            .content .profile {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 80%;
+                margin: 0 auto;
+            }
+
+                .content .profile img {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                .content .profile .info {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+
+                    .content .profile .info h2 {
+                        color: #333333;
+                        font-size: 20px;
+                    }
+
+                    .content .profile .info span {
+                        color: #666666;
+                        font-size: 16px;
+                    }
+
+                .content .profile .edit {
+                    background-color: #333333;
+                    color: white;
+                    padding: 10px;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                    .content .profile .edit:hover {
+                        background-color: #666666;
+                    }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Profil Sayfası</h1>
+        <p>Bu sayfada danışanınızın profilini görüntüleyebilirsiniz.</p>
+        <div class="profile">
+            @if (Model.ProfilFotografiYolu != null)
+            {
+                <img src="@Model.ProfilFotografiYolu" alt="Profil Resmi" class="img-fluid rounded-circle">
+            }
+            else
+            {
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Profil Resmi" class="img-fluid rounded-circle">
+            }
+            
+            <div class="info">
+                <h2>Ad Soyad:</h2>
+                <span id="fullname">@Model.FullAdi</span>
+                <h2>Yaş:</h2>
+                <span>@Model.Yas</span>
+                <h2>Uzmanlık Alanı:</h2>
+                <span>@Model.UzmanlikAlani</span>
+                <h2>Deneyim:</h2>
+                <span>@Model.Deneyimleri</span>
+                <h2>Danışan Sayısı:</h2>
+                <span>@Model.danisanSayisi</span>
+
+                <h2>Doğum Tarihi:</h2>
+                <span>@Model.DogumTarihi</span>
+                <h2>Telefon Numarası:</h2>
+                <span>@Model.TelNumarasi</span>
+                <h2>Cinsiyet:</h2>
+                <span>@Model.Cinsiyet</span>
+                
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

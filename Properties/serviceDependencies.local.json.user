@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2023-12-02T10:58:00.0807677Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-12-03T13:02:04.373719Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2023-11-30T16:20:13.5659389Z"
+    }
+  },
+  "parameters": {
+    "mssql2.resourceGroupName": {
+      "Name": "mssql2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Yazlab2"
+    },
+    "mssql2.subscriptionId": {
+      "Name": "mssql2.subscriptionId",
+      "Type": "subscription",
+      "Value": "353fb3c0-e3ac-45b1-9adf-ed52d4813611"
+    }
+  }
+}

@@ -1,0 +1,557 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Deneme3.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Deneme3.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\bootstrap\\js\\npm.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\npm.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\fonts\\Geometria-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Geometria-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\fonts\\Geometria.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Geometria.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\fonts\\flat-icon\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flat-icon\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\fonts\\flat-icon\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flat-icon\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\fonts\\flat-icon\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flat-icon\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\fonts\\flat-icon\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flat-icon\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\fonts\\flat-icon\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flat-icon\\_flaticon.scss"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\fonts\\flat-icon\\debug.log",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flat-icon\\debug.log"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\fonts\\flat-icon\\flaticon.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flat-icon\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\fonts\\flat-icon\\flaticon.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flat-icon\\flaticon.html"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\fonts\\geometria-medium.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\geometria-medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\iconfont\\MaterialIcons-Regular.eot",
+      "PackagePath": "staticwebassets\\assets\\iconfont\\MaterialIcons-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\iconfont\\MaterialIcons-Regular.ijmap",
+      "PackagePath": "staticwebassets\\assets\\iconfont\\MaterialIcons-Regular.ijmap"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\iconfont\\MaterialIcons-Regular.svg",
+      "PackagePath": "staticwebassets\\assets\\iconfont\\MaterialIcons-Regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\iconfont\\MaterialIcons-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\iconfont\\MaterialIcons-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\iconfont\\MaterialIcons-Regular.woff",
+      "PackagePath": "staticwebassets\\assets\\iconfont\\MaterialIcons-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\iconfont\\MaterialIcons-Regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\iconfont\\MaterialIcons-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\iconfont\\README.md",
+      "PackagePath": "staticwebassets\\assets\\iconfont\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\iconfont\\codepoints",
+      "PackagePath": "staticwebassets\\assets\\iconfont"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\iconfont\\debug.log",
+      "PackagePath": "staticwebassets\\assets\\iconfont\\debug.log"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\iconfont\\material-icons.css",
+      "PackagePath": "staticwebassets\\assets\\iconfont\\material-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\form-background.png",
+      "PackagePath": "staticwebassets\\assets\\images\\form-background.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\header-background.png",
+      "PackagePath": "staticwebassets\\assets\\images\\header-background.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\running-man.png",
+      "PackagePath": "staticwebassets\\assets\\images\\running-man.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\sponsors1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sponsors1.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\sponsors2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sponsors2.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\sponsors3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sponsors3.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\sponsors4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sponsors4.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\sponsors5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sponsors5.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\sponsors6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sponsors6.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\step1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\step1.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\step2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\step2.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\step3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\step3.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\team1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team1.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\team2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team2.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\team3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\team3.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\testimonial1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial1.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\testimonial2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial2.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\testimonial3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial3.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\testimonial4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial4.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\title-shape.png",
+      "PackagePath": "staticwebassets\\assets\\images\\title-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\images\\video-player-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\video-player-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\assets\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\css\\applayout.css",
+      "PackagePath": "staticwebassets\\css\\applayout.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\css\\deneme.css",
+      "PackagePath": "staticwebassets\\css\\deneme.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\css\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\css\\images\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\css\\loginstyle.css",
+      "PackagePath": "staticwebassets\\css\\loginstyle.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\css\\profilestyle.css",
+      "PackagePath": "staticwebassets\\css\\profilestyle.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\css\\registerstyle.css",
+      "PackagePath": "staticwebassets\\css\\registerstyle.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yalnd\\source\\repos\\Deneme3\\yazlab2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Deneme3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Deneme3.props",
+      "PackagePath": "build\\Deneme3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Deneme3.props",
+      "PackagePath": "buildMultiTargeting\\Deneme3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Deneme3.props",
+      "PackagePath": "buildTransitive\\Deneme3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

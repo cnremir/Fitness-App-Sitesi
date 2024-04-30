@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fitness Uygulaması</title>
+    <meta name="keywords" content="Fitness, Egzersiz, Sağlık, Spor">
+    <meta name="description" content="Fitness uygulaması ile sağlıklı yaşamaya adım atın. Daha fit ve enerjik bir yaşam için bize katılın!">
+
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/fonts/flat-icon/flaticon.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header header--bg">
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav pull-right">
+                        <li><a href="Home">ANASAYFA</a></li>
+                        <li><a href="Login">GİRİŞ YAP</a></li>
+                        <li><a href="#">EGZERSİZLER</a></li>
+                        <li><a href="#">HAKKIMIZDA</a></li>
+                        <li><a href="tel:97979">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="assets/images/running-man.png" alt="Koşan Adam">
+                </div>
+                <div class="col-lg-6 header__content">
+                    <h1 class="title">Fitness Uygulaması <span class="title-style"></span></h1>
+                    <p>Fitness uygulaması ile sağlıklı bir yaşam tarzına adım atın.</p>
+                    <a class="header__button" href="#">DAHA FAZLA BİLGİ</a>
+                    <a class="header__button" href="#">KEŞFET</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer footer--bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer__left">
+                    <a class="navbar-brand" href="#"></a>
+                    <p>Tüm hakları saklıdır &copy; Fitness Uygulaması 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,129 @@
+﻿@model List<Danisan>
+
+@{
+    ViewBag.Title = "Danisanlar";
+    Layout = "~/Views/Shared/_AntrenorLayout.cshtml";
+}
+
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+            .content h1 {
+                color: #333333;
+                font-size: 24px;
+            }
+
+            .content p {
+                color: #666666;
+                font-size: 16px;
+            }
+
+            .content table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            .content th {
+                background-color: #333333;
+                color: white;
+                padding: 10px;
+            }
+
+            .content td {
+                border: 1px solid #cccccc;
+                padding: 10px;
+            }
+
+            .content tr:nth-child(even) {
+                background-color: #f0f0f0;
+            }
+
+            .content tr:hover {
+                background-color: #ffff99;
+            }
+
+            .content button {
+                background-color: #333333;
+                color: white;
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+            }
+
+                .content button:hover {
+                    background-color: #666666;
+                }
+
+            .content img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
+    </style>
+</head>
+<body>
+
+
+    <div class="content">
+        <h1>Danışanlar</h1>
+        <p>Danışanlarınızı burada görebilir ve yönetebilirsiniz.</p>
+        <table>
+            <tr>
+                <th>Fotoğraf</th>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Yaş</th>
+                <th>Cinsiyet</th>
+                <th>Boy</th>
+                <th>Kilo</th>
+                <th>Hedef</th>
+
+                <th>Seçenekler</th>
+            </tr>
+
+            @foreach (var x in Model)
+            {
+                <tr>
+                    <td><img src="@x.ProfilFotografiYolu" alt="Profil Resmi" class="img-fluid rounded-circle"></td>
+                    <td><p id="name">@x.Adi</p></td>
+                    <td><p id="surname">@x.Soyadi</p></td>
+                    <td><p id="yas">@x.Yas</p></td>
+                    <td><p id="cinsiyet">@x.Cinsiyet</p></td>
+                    <td><p id="boy">@x.Boy</p></td>
+                    <td><p id="kilo">@x.Kg</p></td>
+
+
+                    <td>
+                        <form method="post" action="/Antrenor/ProfilGoruntule">
+                            <input type="hidden" name="KisiID" value="@x.KisiId" />
+                            <button type="submit">Profil</button>
+                        </form> <form method="post" action="/Antrenor/Mesaj">
+                            <input type="hidden" name="KisiId" value="@x.KisiId" />
+                            <button type="submit">Mesaj</button>
+                        </form>
+                        <form method="post" action="/Antrenor/DanisanSil">
+                            <input type="hidden" name="KisiId" value="@x.KisiId" />
+                            <button type="submit">Sil</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </table>
+
+
+    </div>
+</body>
+</html>

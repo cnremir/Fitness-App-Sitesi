@@ -1,0 +1,40 @@
+﻿/* Profile info section styles */
+.profile-info {
+    margin-top: 20px;
+}
+
+.profile-image {
+    margin-bottom: 20px;
+}
+
+.img-fluid {
+    width: 100%;
+    max-width: 150px;
+}
+
+.editBtn {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.info-item {
+    display: table-row;
+}
+
+label {
+    text-align: left;
+}
+
+p {
+    margin-bottom: 0;
+}

@@ -1,0 +1,105 @@
+﻿@model Antrenor
+@{
+    ViewBag.Title = "Antrenör";
+    Layout = "~/Views/Shared/_AntrenorLayout.cshtml";
+}
+
+
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+        .content h1 {
+            color: #333333;
+            font-size: 24px;
+        }
+
+        .content p {
+            color: #666666;
+            font-size: 16px;
+        }
+
+        .content table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .content th {
+            background-color: #333333;
+            color: white;
+            padding: 10px;
+        }
+
+        .content td {
+            border: 1px solid #cccccc;
+            padding: 10px;
+        }
+
+        .content tr:nth-child(even) {
+            background-color: #f0f0f0;
+        }
+
+        .content tr:hover {
+            background-color: #ffff99;
+        }
+
+        .content button {
+            background-color: #333333;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .content button:hover {
+            background-color: #666666;
+        }
+
+        .content img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+   
+
+    <div class="content">
+        <h1>Profil</h1>
+        <p>Antrenörün profil bilgilerini burada görebilir ve düzenleyebilirsiniz.</p>
+        <table>
+            <tr>
+                <th>Fotoğraf</th>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Uzmanlık Alanları</th>
+                <th>Deneyimler</th>
+                <th>İletişim Bilgileri</th>
+            </tr>
+            <tr>
+                <td><img src="@Model.ProfilFotografiYolu" alt="Profil Resmi" class="img-fluid rounded-circle"></td>
+                <td><p id="name">@Model.Adi</p></td>
+                <td><p id="surname">@Model.Soyadi</p></td>
+                <td><p id="uzmanlik">@Model.UzmanlikAlani</p></td>
+                <td><p id="deneyim">@Model.Deneyimleri</p></td>
+                <td><p id="email">@Model.Email</p></td>
+            </tr>
+        </table>
+        
+    </div>
+</body>
+</html>

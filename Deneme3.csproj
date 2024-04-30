@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>8a8cdd92-15ac-45e3-8d5d-dc969797e829</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="emir\**" />
+    <Content Remove="emir\**" />
+    <EmbeddedResource Remove="emir\**" />
+    <None Remove="emir\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="popper.js" Version="1.16.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="NewFolder\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\lib\bootstrap\" />
+    <Folder Include="wwwroot\lib\bootstrap\dist\css\" />
+    <Folder Include="wwwroot\lib\bootstrap\dist\js\" />
+    <Folder Include="wwwroot\lib\jquery-validation-unobtrusive\" />
+    <Folder Include="wwwroot\lib\jquery-validation\" />
+    <Folder Include="wwwroot\lib\jquery-validation\dist\" />
+    <Folder Include="wwwroot\lib\jquery\" />
+    <Folder Include="wwwroot\lib\jquery\dist\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Danisan\DanisanAnaSayfa.cshtml" />
+    <None Include="Views\Danisan\DanisanHesapOlustur.cshtml" />
+    <None Include="Views\Danisan\DanisanProfil.cshtml" />
+    <None Include="Views\Danisan\Index.cshtml" />
+    <None Include="Views\Danisan\PlanGetir.cshtml" />
+    <None Include="Views\IlerlemeKayit\IlerlemeKayitlari.cshtml" />
+    <None Include="Views\IlerlemeKayit\IlerlemeKayitSayfa.cshtml" />
+    <None Include="wwwroot\css\styles.css" />
+  </ItemGroup>
+
+</Project>

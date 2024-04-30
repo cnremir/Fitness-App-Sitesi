@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Proje Adınız - Ana Sayfa</title>
+    <meta name="keywords" content="Proje anahtar kelimeleri">
+    <meta name="description" content="Projenizin açıklaması">
+
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/fonts/flat-icon/flaticon.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div id="content-wrapper">
+        <section class="steps">
+            <div class="container">
+                <div class="page-section text-center">
+                    <h2 class="page-section__title">Projenizin Adı</h2>
+                    <div class="page-section__title-style">
+                        <span class="first-line"></span>
+                        <span class="second-line"></span>
+                    </div>
+                    <p class="page-section__subtitle">Projenizin kısa açıklaması burada yer alabilir. Daha fazla detay için diğer sayfalarımızı inceleyebilirsiniz.</p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center steps__single steps__single-first">
+                                <img src="assets/images/step1.png" alt="">
+                                <p>İlk Adımın Başlığı</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center steps__single">
+                                <img src="assets/images/step2.png" alt="">
+                                <p>İkinci Adımın Başlığı</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center steps__single steps__single-last">
+                                <img src="assets/images/step3.png" alt="">
+                                <p>Üçüncü Adımın Başlığı</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="button" href="/ProjeYolu">ŞİMDİ KEŞFET</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="assets/jquery/jquery-3.2.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="assets/owl-slider/owl.carousel.min.js"></script> -->
+
+    <script>
+        $(document).ready(function () {
+            $('button').click(function (e) {
+                $('.collapse').collapse('hide');
+            });
+        });
+    </script>
+</body>
+</html>

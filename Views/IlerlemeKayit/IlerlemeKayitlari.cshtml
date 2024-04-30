@@ -1,0 +1,107 @@
+﻿@model List<IlerlemeKayit>
+@{
+    ViewBag.Title = "Danisanlar";
+    Layout = "~/Views/Shared/_DanisanLayout.cshtml";
+}
+
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+            .content h1 {
+                color: #333333;
+                font-size: 24px;
+            }
+
+            .content p {
+                color: #666666;
+                font-size: 16px;
+            }
+
+            .content table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            .content th {
+                background-color: #333333;
+                color: white;
+                padding: 10px;
+            }
+
+            .content td {
+                border: 1px solid #cccccc;
+                padding: 10px;
+            }
+
+            .content tr:nth-child(even) {
+                background-color: #f0f0f0;
+            }
+
+            .content tr:hover {
+                background-color: #ffff99;
+            }
+
+            .content button {
+                background-color: #333333;
+                color: white;
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+            }
+
+                .content button:hover {
+                    background-color: #666666;
+                }
+
+            .content video {
+                width: 300px;
+                height: 200px;
+            }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div style="text-align: center;">
+        <h1>İLERLEME KAYITLARIM</h1>
+        <p>İLERLEME KAYITLARINIZI BURDA GÖREBİLİRSİNİZ</p>
+        <table>
+            <tr>
+                <th>BOY </th>
+                <th>KİLO</th>
+                <th>KAS KÜTLESİ</th>
+                <th>VÜCUT KİTLE İNDEXİ</th>
+                <th>VÜCUT YAĞ ORANI</th>
+                <th>TARİH</th>
+            </tr>
+            @foreach (var x in Model)
+            {
+                <tr data-plan-id="@x.Boy CM">
+                    <td>@x.Boy CM</td>
+                    <td>@x.Kilo KG</td>
+                    <td>@x.KasKütlesi</td>
+                    <td>@x.VücutKitleIndexi</td>
+                    <td>@x.VücutYagOrani</td>
+                    <td>@x.time</td>
+                    
+                </tr>
+            }
+
+
+        </table>
+      
+
+   
+</body>
+</html>

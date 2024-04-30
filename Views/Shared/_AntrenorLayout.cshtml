@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .menu {
+            width: 200px;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            background-color: #333333;
+            color: white;
+            padding: 20px;
+        }
+
+            .menu ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .menu li {
+                margin: 10px 0;
+            }
+
+            .menu a {
+                color: white;
+                text-decoration: none;
+            }
+
+                .menu a:hover {
+                    color: yellow;
+                }
+
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <h1>Antrenör</h1>
+        <ul>
+            <li><a href="/Antrenor/Index">Ana Sayfa</a></li>
+            <li><a href="/Antrenor/Profil">Profil</a></li>
+            <li><a href="/Antrenor/Danisanlar">Danışanlar</a></li>
+            <li><a href="/Antrenor/SeninDanisanlar">Senin Danışanların</a></li>
+            <li><a href="/Antrenor/Planlar">Planlar</a></li>
+            <li><a href="/Login/Index">Çıkış Yap</a></li>
+            
+
+        </ul>
+    </div>
+    <div class="container">
+        
+            @RenderBody()
+        
+    </div>
+
+    <footer class="footer footer--bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer__left">
+                    <a class="navbar-brand" href="#"></a>
+                    
+                </div>
+               
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

@@ -1,0 +1,97 @@
+﻿@model IlerlemeKayit
+
+@{
+    ViewBag.Title = "IlerlemeKayit";
+    Layout = "~/Views/Shared/_DanisanLayout.cshtml";
+}
+
+<html>
+<head>
+    <style>
+        .content .profile {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+            .content .profile h2 {
+                margin-top: 15px;
+                font-size: 18px;
+                color: #333;
+            }
+
+            .content .profile input[type="text"],
+            .content .profile input[type="number"],
+            .content .profile input[type="date"] {
+                width: calc(100% - 22px);
+                padding: 10px;
+                margin-top: 5px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                font-size: 16px;
+            }
+
+            .content .profile .save {
+                background-color: #333;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                font-size: 16px;
+                transition: background-color 0.3s ease;
+            }
+
+                .content .profile .save:hover {
+                    background-color: #666;
+                }
+
+
+    </style>
+</head>
+<body>
+    <div class="content">
+
+        <h1 style="text-align: center;">İLERLEME KAYDI EKLE</h1>
+        <p style="text-align: center;">BU SAYFADA İLERLEME KAYITLARINI EKLEYEBİLİR,DAHA SONRA İLERLEMENİZİ TAKİP EDEBİLİRSİNİZ</p>
+
+        @using (Html.BeginForm("BtnIlerlemeEkle", "IlerlemeKayit", FormMethod.Post))
+        {
+            <div class="profile">
+                <div class="info">
+                    <h2>KİLO</h2>
+                    <input type="text" name="Kilo" value="@Model.Kilo" placeholder="Kilo">
+                    <h2>BOY(CM CİNSİNDEN YAZINIZ):</h2>
+                    <input type="text" name="Boy" value="@Model.Boy" placeholder="Boy">
+                    <h2>Vücut Yağ Oranı:</h2>
+                    <input type="number" name="VücutYagOrani" value="@Model.VücutYagOrani" placeholder="Vücut Yağ Oranı">
+                    <h2>Kas Kütlesi:</h2>
+                    <input type="number" name="KasKütlesi" value="@Model.KasKütlesi" placeholder="Kas Kütlesi">
+                    <h2>Vücut Kitle İndexi</h2>
+                    <input type="number" name="VücutKitleIndexi" value="@Model.VücutKitleIndexi" placeholder="Vücut Kitle İndexi">
+                    <h2>TARİH:</h2>
+                    <input type="date" name="time" value="@Model.time.ToShortDateString()" placeholder="Tarih Seçiniz">
+                    <button type="submit" class="save">Profil Kaydet</button>
+                </div>
+            </div>
+
+        }
+  
+
+    
+           
+              
+          
+
+         
+  
+       
+</body>
+</html>
+

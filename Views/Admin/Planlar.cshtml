@@ -1,0 +1,115 @@
+﻿@model List<Plan>
+@{
+    ViewBag.Title = "Danisanlar";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+            .content h1 {
+                color: #333333;
+                font-size: 24px;
+            }
+
+            .content p {
+                color: #666666;
+                font-size: 16px;
+            }
+
+            .content table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            .content th {
+                background-color: #333333;
+                color: white;
+                padding: 10px;
+            }
+
+            .content td {
+                border: 1px solid #cccccc;
+                padding: 10px;
+            }
+
+            .content tr:nth-child(even) {
+                background-color: #f0f0f0;
+            }
+
+            .content tr:hover {
+                background-color: #ffff99;
+            }
+
+            .content button {
+                background-color: #333333;
+                color: white;
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+            }
+
+                .content button:hover {
+                    background-color: #666666;
+                }
+
+            .content video {
+                width: 300px;
+                height: 200px;
+            }
+    </style>
+</head>
+<body>
+    
+    <div class="content">
+        <h1>Egzersiz ve Beslenme Planları</h1>
+        <p>Egzersiz ve beslenme planlarınızı burada görebilir ve yönetebilirsiniz.</p>
+        <table>
+            <tr>
+                <th>Plan Adı</th>
+                <th>Hedef</th>
+                <th>Başlangıç Tarihi</th>
+                <th>Süre</th>
+                <th>Seçenekler</th>
+            </tr>
+            @foreach (var x in Model)
+            {
+                <tr data-plan-id="@x.planID">
+                    <td>@x.planAdi</td>
+                    <td>@x.planHedefi</td>
+                    <td>@x.baslangicTarihi</td>
+                    <td>@x.sureHafta hafta</td>
+                    <td>
+                        <form method="post" action="/Admin/PlanDuzenle">
+                            <input type="hidden" name="planID" value="@x.planID" />
+                            <button type="submit">Düzenle</button>
+                        </form>
+                        <form method="post" action="/Admin/DeletePlan">
+                            <input type="hidden" name="planID" value="@x.planID" />
+                            <button type="submit">Sil</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+            
+           
+        </table>
+        
+        
+        </div>
+    
+        </body>
+        </html>
+        

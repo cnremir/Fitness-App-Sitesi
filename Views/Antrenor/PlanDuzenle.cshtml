@@ -1,0 +1,105 @@
+﻿@model Plan
+@{
+    ViewBag.Title = "Plan Oluştur";
+    Layout = "~/Views/Shared/_AntrenorLayout.cshtml";
+}
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+            .content h1 {
+                color: #333333;
+                font-size: 24px;
+            }
+
+            .content p {
+                color: #666666;
+                font-size: 16px;
+            }
+
+            .content form {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .content label {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .content input, .content select, .content textarea {
+                display: block;
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #cccccc;
+            }
+
+            .content button {
+                background-color: #333333;
+                color: white;
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+            }
+
+                .content button:hover {
+                    background-color: #666666;
+                }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Yeni Plan Oluştur</h1>
+        <p>Bu sayfada yeni bir egzersiz veya beslenme planı oluşturabilirsiniz.</p>
+        @using (Html.BeginForm("BtnPlanDuzenle", "Antrenor", FormMethod.Post))
+        {
+            @Html.HiddenFor(model => model.planID)
+            @Html.HiddenFor(model => model.atananDanisanID)
+            @Html.HiddenFor(model => model.atananDanisanAdSoyadi)
+            @Html.HiddenFor(model => model.olusturanKisiID)
+            
+            
+            <label for="planname">Plan Adı:</label>
+            <input type="text" id="planAdi" name="planAdi" value="@Model.planAdi" placeholder="Örnek: Kilo Verme Programı" required>
+
+            <label for="plantype">Plan Türü:</label>
+            <select id="planTuru" name="planTuru" required>
+                <option value="egzersiz" selected="@(Model.planTuru == "egzersiz")">Egzersiz</option>
+                <option value="beslenme" selected="@(Model.planTuru == "beslenme")">Beslenme</option>
+            </select>
+
+            <label for="plangoal">Hedef:</label>
+            <select id="planHedefi" name="planHedefi" required>
+                <option value="" selected="@(Model.planHedefi == "")">Seçiniz</option>
+                <option value="kilo-vermek" selected="@(Model.planHedefi == "kilo-vermek")">Kilo vermek</option>
+                <option value="kilo-almak" selected="@(Model.planHedefi == "kilo-almak")">Kilo almak</option>
+                <option value="kilo-korumak" selected="@(Model.planHedefi == "kilo-korumak")">Kilo korumak</option>
+                <option value="kas-kazanmak" selected="@(Model.planHedefi == "kas-kazanmak")">Kas kazanmak</option>
+            </select>
+
+
+            <label for="planstart">Başlangıç Tarihi:</label>
+            <input type="date" id="baslangicTarihi" name="baslangicTarihi" value="@Model.baslangicTarihi.ToString("yyyy-MM-dd")" required>
+
+            <label for="planduration">Süre (hafta):</label>
+            <input type="number" id="sureHafta" name="sureHafta" value="@Model.sureHafta" min="1" max="52" required>
+
+            <label for="plandetails">Plan Detayları:</label>
+            <textarea id="planDetay" name="planDetay" rows="10" placeholder="Örnek: Pazartesi: Şınav, Mekik, Plank..." required>@Model.planDetay</textarea>
+
+            <button type="submit">Planı Oluştur</button>
+        }
+    </div>
+</body>
+</html>

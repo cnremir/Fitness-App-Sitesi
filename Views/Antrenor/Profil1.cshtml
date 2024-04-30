@@ -1,0 +1,116 @@
+﻿@model Antrenor
+@{
+    ViewBag.Title = "Profil";
+    Layout = "~/Views/Shared/_AntrenorLayout.cshtml";
+}
+<html>
+<head>
+    <style>
+        /* Sitenin genel stilini tanımlayalım */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+       
+
+        /* İçeriği menüden sonra başlatmak için boşluk bırakalım */
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+            /* İçerikteki başlıklara stil uygulayalım */
+            .content h1 {
+                color: #333333;
+                font-size: 24px;
+            }
+
+            /* İçerikteki paragraflara stil uygulayalım */
+            .content p {
+                color: #666666;
+                font-size: 16px;
+            }
+
+            /* İçerikteki tabloları düzenleyelim */
+            .content table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            /* İçerikteki tablo başlıklarına stil uygulayalım */
+            .content th {
+                background-color: #333333;
+                color: white;
+                padding: 10px;
+            }
+
+            /* İçerikteki tablo hücrelerine stil uygulayalım */
+            .content td {
+                border: 1px solid #cccccc;
+                padding: 10px;
+            }
+
+            /* İçerikteki tablo hücrelerine çift sıra renklendirme uygulayalım */
+            .content tr:nth-child(even) {
+                background-color: #f0f0f0;
+            }
+
+            /* İçerikteki tablo hücrelerine hover efekti verelim */
+            .content tr:hover {
+                background-color: #ffff99;
+            }
+
+            /* İçerikteki butonlara stil uygulayalım */
+            .content button {
+                background-color: #333333;
+                color: white;
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+            }
+
+                /* İçerikteki butonlara hover efekti verelim */
+                .content button:hover {
+                    background-color: #666666;
+                }
+
+            /* İçerikteki fotoğraflara stil uygulayalım */
+            .content img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
+    </style>
+</head>
+<body>
+   
+
+    <!-- İçeriği oluşturalım -->
+    <div class="content">
+        <h1>Profil</h1>
+        <p>Profil bilgilerinizi burada görebilir ve düzenleyebilirsiniz.</p>
+        <table>
+            <tr>
+                <th>Fotoğraf</th>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Yaş</th>
+                <th>Cinsiyet</th>
+                
+            </tr>
+            <tr>
+                <td><img src="@Model.ProfilFotografiYolu" alt="Profil Resmi" class="img-fluid rounded-circle"></td>
+                <td><p id="name">@Model.Adi</p></td>
+                <td><p id="surname">@Model.Soyadi</p></td>
+                <td><p id="yas">@Model.Yas</p></td>
+                <td><p id="cinsiyet">@Model.Cinsiyet</p></td>
+                
+            </tr>
+        </table>
+        <button>Düzenle</button>
+    </div>
+</body>
+</html>

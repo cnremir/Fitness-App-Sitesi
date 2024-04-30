@@ -1,0 +1,177 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Deneme3
+build_property.RootNamespace = Deneme3
+build_property.ProjectDir = C:\Users\yalnd\source\repos\Deneme3\yazlab2\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\yalnd\source\repos\Deneme3\yazlab2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Admin/KisiDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS2lzaUR1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Admin/PlanDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGxhbkR1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Admin/Planlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGxhbmxhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Antrenor/Danisanlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcRGFuaXNhbmxhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Antrenor/HesapOlustur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcSGVzYXBPbHVzdHVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Antrenor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Antrenor/Mesaj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcTWVzYWouY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Antrenor/PlanDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcUGxhbkR1emVubGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Antrenor/Planlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcUGxhbmxhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Antrenor/PlanOlustur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcUGxhbk9sdXN0dXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Antrenor/Profil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcUHJvZmlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Antrenor/ProfilDuzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcUHJvZmlsRHV6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Antrenor/ProfilGoruntule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcUHJvZmlsR29ydW50dWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Antrenor/SeninDanisanlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcU2VuaW5EYW5pc2FubGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Danisan/Antrenorler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaXNhblxBbnRyZW5vcmxlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Danisan/DanisanAnaSayfa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaXNhblxEYW5pc2FuQW5hU2F5ZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Danisan/DanisanHesapOlustur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaXNhblxEYW5pc2FuSGVzYXBPbHVzdHVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Danisan/DanisanProfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaXNhblxEYW5pc2FuUHJvZmlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Danisan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaXNhblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Danisan/Mesajlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaXNhblxNZXNhamxhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Danisan/PlanGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaXNhblxQbGFuR2V0aXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Danisan/ProfilGoruntule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaXNhblxQcm9maWxHb3J1bnR1bGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/IlerlemeKayit/IlerlemeKayitlari.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxlcmxlbWVLYXlpdFxJbGVybGVtZUtheWl0bGFyaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/IlerlemeKayit/IlerlemeKayitSayfa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxlcmxlbWVLYXlpdFxJbGVybGVtZUtheWl0U2F5ZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Login/sifreResetle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cc2lmcmVSZXNldGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Login/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Shared/_DanisanLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYW5pc2FuTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Shared/_TestLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UZXN0TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-lunqk8nmef
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Shared/_AntrenorLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BbnRyZW5vckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-b0lnjqzt9h
+
+[C:/Users/yalnd/source/repos/Deneme3/yazlab2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-atq5gl1ueq

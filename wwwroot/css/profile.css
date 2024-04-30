@@ -1,0 +1,61 @@
+/* profilstyle.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('images/background.jpg'); /* Arkaplan resminin URL'sini ekleyin */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Arkaplanýn üzerinde bir yarý saydamlýk ekleyin */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.profile-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.info-item {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.editBtn {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+    .editBtn:hover {
+        text-decoration: underline;
+    }
